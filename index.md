@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+[Link to another page](pages/another-page).
 
 There should be whitespace between paragraphs.
 
@@ -28,6 +28,13 @@ var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
 }
+```
+
+
+```py
+# Some python code
+def fun(foo, bar):
+    return foo, bar
 ```
 
 ```ruby
